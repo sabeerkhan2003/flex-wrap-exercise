@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Gap between flex items */
+}
+.item {
+    width: 200px; /* Initial width of each flex item */
+    height: 200px; /* Initial height of each flex item */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
